@@ -10,7 +10,7 @@ public class LoginFeature {
         this.senha = senha;
     }
 
-    // Método login()
+
     public boolean login(String nomeDigitado, String senhaDigitada) {
         if (this.nome.equals(nomeDigitado) && this.senha.equals(senhaDigitada)) {
             System.out.println("✅ Login realizado com sucesso!");
@@ -21,7 +21,6 @@ public class LoginFeature {
         }
     }
 
-    // Método principal para testar
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

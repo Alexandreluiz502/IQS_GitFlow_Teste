@@ -10,7 +10,7 @@ public class LoginFeature {
         this.senha = senha;
     }
 
-
+//r
     public boolean login(String nomeDigitado, String senhaDigitada) {
         if (this.nome.equals(nomeDigitado) && this.senha.equals(senhaDigitada)) {
             System.out.println("✅ Login realizado com sucesso!");
